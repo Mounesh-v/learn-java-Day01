@@ -1,5 +1,3 @@
-package Day10;
-
 public class Methods {
     /*
      * Types of Methods
@@ -32,6 +30,11 @@ public class Methods {
     // Return Type With Parameter
     static String withReturnPara(int b){
         return "Return With Parameter";
+    }
+
+    // Addition method
+    static int addition(int a, int b) {
+        return a + b;
     }
 
     public static void main(String[] args) {
