@@ -123,13 +123,13 @@ public class OOPS {
 
         // 5.Polymorphism
         // compile Time-->Same method but diff Signature(logic)
-        
-        static int add(int a, int b) {
-            return a + b;
-        }
-        
-        static int add(float a, float b) {
-            return (int) (a + b);
-        }
-    
+    }
+
+    static int add(int a, int b) {
+        return a + b;
+    }
+
+    static int add(float a, float b) {
+        return (int) (a + b);
+    }
 }
