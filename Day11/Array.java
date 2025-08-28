@@ -32,11 +32,10 @@ public class Array {
         }
 
         // Printing an Array Using For-loop
-        /*
-         * for (int i = 0; i < dynamicArray.length; i++) {
-         * System.out.println(dynamicArray[i]);
-         * }
-         */
+        //   for (int i = 0; i < dynamicArray.length; i++) {
+        //   System.out.println(dynamicArray[i]);
+        //   }
+         
         // OR
         for (int i : dynamicArray) {
             System.out.println(i);
